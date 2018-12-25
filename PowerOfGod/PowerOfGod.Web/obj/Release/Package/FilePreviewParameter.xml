@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="powerofgodwithus" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Feather\\source\\PowerOfGod\\PowerOfGod\.Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Feather\\source\\PowerOfGod\\PowerOfGod\.Web\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="PowerOfGodDB4-Web.config Connection String" description="" value="Data Source=tcp:serverpowithrofgodweus.database.windows.net,1433;Initial Catalog=powerofgodwithusDB;Persist Security Info=False;User ID=PowerWithUs01;Password=PowerWithUs*01#;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Feather\\source\\PowerOfGod\\PowerOfGod\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PowerOfGodDB4']/@connectionString" />
+  </parameter>
+</parameters>
